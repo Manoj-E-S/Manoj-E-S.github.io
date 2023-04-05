@@ -1,0 +1,337 @@
+
+/********************************Classes***************************************/
+
+/* Top Container */
+.top-container {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  background-image: url("../Images/PSD/bgmeless@3x.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: inline-block;
+
+  width: 100vw;
+  height: 100vh;
+}
+    .name {
+      display: inline;
+
+      position:absolute;
+      left: 10vw;
+      top: 50vh;
+
+      color: #DFF6FF;
+    }
+    .role {
+      display: inline-block;
+      height: auto;
+      width: 250px;
+
+      position: absolute;
+      top: 60vh;
+      left: 10.3vw;
+    }
+        .emphasis {
+          color: #DFF6FF;
+        }
+
+/* Middle Container */
+.middle-container {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    /* background-color: #121038; */
+    background: linear-gradient(0deg, #121070, #121038);
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100vw;
+    height: auto;
+}
+    .penguin {
+      margin-top: 20vh;
+      padding-right: 1.5vw;
+
+      display: flex;
+      flex-direction: row;
+    }
+    .greeting {
+      margin-top: 5vh;
+
+      display: flex;
+      flex-direction: row;
+
+      color: #DFF6FF;
+      text-align: center;
+    }
+    .about {
+      margin-top: 2vh;
+      margin-bottom: 20vh;
+
+      display: flex;
+      flex-direction: row;
+
+      text-align: justify;
+      text-align-last: center;
+      text-justify: auto;
+
+      height: auto;
+      width: 50vw;
+    }
+  
+/* Skills container */
+.skills-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+
+  background-image: url("../Images/Petronus.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  width: 100vw !important;
+  max-width: 100vw !important;
+  height: auto !important;
+}
+    .skills-title {
+      background: linear-gradient(#121070ff, 60%, rgba(18, 16, 56, 0.3));
+      backdrop-filter: blur(20px);
+      padding: 2rem 0 !important;
+      margin-bottom: 4rem !important;
+      font-family: 'Lato', sans-serif !important;
+      text-align: center;
+      color: white;
+    }
+    .skills-end {
+      background: linear-gradient(to top, #121070ff, 75%, rgba(18, 16, 56, 0.3));
+      backdrop-filter: blur(20px);
+      padding: 2rem 0 !important;
+      font-family: 'Lato', sans-serif !important;
+      text-align: center;
+      color: white;
+    }
+        .skills-parent{
+          display: flex !important;
+          flex-direction: column !important;
+          align-items: center !important;
+
+          width: auto;
+          height: 50vh;
+        }
+            .skills-parent a {
+              width: 70%;
+              height: 80%;
+            }
+                .skills,
+                .skillset {
+                  /* background-color: rgba(18, 16, 56, 0.3); */
+                  background: linear-gradient(#11acbd33, #7E97EB33);
+                  border-radius: 2rem;
+                  backdrop-filter: blur(20px);
+
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+
+                  width: 100%;
+                  height: 100%;
+                  transition: 0.4s;
+                }
+                .skillset {
+                  background-color: #7E97EB66;
+
+                  width: 70%; /* */
+                  height: 80%; /* Remove or alter these lines if skillset should be made a clickable link */
+                }
+                .skills:hover {
+                  color: #000000;
+                  background: linear-gradient(#11acbd, #7E97EB);
+                  box-shadow: 0px 0px 25px #11acbdaa;
+                  transform: scale(0.8);
+                  transition: 0.3s;
+                }
+                    .skills h1,
+                    .skillset h1{
+                      font-size: 2rem !important;
+                      font-family: 'Poppins', sans-serif !important;
+                      text-align: center;
+                    }
+                    .skillset h1 {
+                      color: white !important;
+                      margin-top: 1rem !important;
+                      margin-bottom: 1rem !important;
+                    }
+                    .skills h1 {
+                      margin-top: 1rem !important;
+                      margin-bottom: 0.5rem !important;
+                    }
+                    .skills img {
+                      width: 35%;
+                      height: auto;
+                      align-self: center;
+                    }
+                    .skillset ul {
+                      width: 80%;
+                      align-self: center;
+                      border-radius: 1rem;
+                    }
+                    .skillset li {
+                      color: white;
+                      background-color: rgba(18, 16, 56, 0.7);
+                      border-color: #47B5FF;
+                      font-family: 'Lato', sans-serif;
+                    }
+                    .skillset span {
+                      background-color: rgba(0, 0, 0, 0.3);
+                      font-family: 'Lato', sans-serif;
+                    }
+
+/* Contact Container */
+.contact-container {
+  background: linear-gradient(0deg, #121038, #121070);
+}
+  .prompt {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+  .adj {
+    margin-bottom: 2rem !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+      .adj h1 {
+        color: #aaccff;
+        font-family: 'Lato', sans-serif !important;
+        font-size: 2.5rem !important;
+        margin-bottom: -1rem !important;
+      }
+      .contact-container button a {
+        color: black !important;
+      }
+
+/* Bottom Container */
+.bottom-container {
+  background-image: url("../Images/Penguin2.png");
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  height: 85vh;
+
+  position: relative;
+}
+    .snow-box {
+      background-color: #CCCCCC;
+
+      width: 40vw;
+      height: 33.2vh;
+
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+    .social {
+      background-color: #CCCCCC;
+
+      width: 10vw;
+      height: 33.2vh;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      position: absolute;
+      left: 41.1vw;
+      bottom: 0;
+    }
+        .ROW {
+          align-self: center;
+          font-size: 0.5rem;
+        }
+        .ROW img {
+          padding: 0.5rem 0;
+          width: 2rem;
+          height: auto;
+        }
+    .water-box {
+      background-color: #65C8D0;
+
+      width: 30vw;
+      height: 30.1vh;
+
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
+/*************************************IDs***************************************/
+
+/*************************************Tags***************************************/
+body {
+  /* Overwrite Browser Defaults and Bootstrap Defaults */
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+
+  /* Define New */
+  background-color: #121038 !important; /*#1F1D36;#4FBDBA;#35858B;*/
+  font-family: 'Poppins', sans-serif !important;
+}
+
+h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size: 3.125rem !important; /*16px = 100% = 1em*/
+  font-family: 'Yomogi', cursive !important;
+}
+
+h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size: 3.5rem !important; /*16px = 100% = 1em*/
+  font-family: 'Sacramento', cursive !important;
+}
+
+span, p {
+  margin: 0 !important;
+  padding: 0;
+
+  color: #47B5FF !important;
+  font-size: 1.25rem !important;
+
+  display: inline !important;
+}
+
+hr {
+  margin: 0 !important;
+
+  border-style: solid none none none !important;
+  border-width: 7px !important;
+  border-color: #121070 !important; /*#47B5FF; #35858B;#4FBDBA;*/
+
+  height: auto !important;
+  width: 100vw !important;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
